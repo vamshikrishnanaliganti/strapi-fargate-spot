@@ -73,7 +73,7 @@ resource "aws_ecs_task_definition" "strapi" {
         {
           name  = "DATABASE_PASSWORD"
           # value = var.db_password
-          value = tostring(var.db_password)
+          value =  value = "Strapi1234"
         },
         {
           name  = "DATABASE_SSL"
