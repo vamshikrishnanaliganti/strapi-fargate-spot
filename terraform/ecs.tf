@@ -76,7 +76,7 @@ resource "aws_ecs_task_definition" "strapi" {
         },
         {
           name  = "DATABASE_SSL"
-          value = "false"
+          value = "true"
         },
         {
           name  = "DATABASE_SSL_REJECT_UNAUTHORIZED"
